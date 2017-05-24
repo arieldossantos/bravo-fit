@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <link rel="stylesheet" href="css/framework7.material.min.css">
+  <link rel="stylesheet" href="css/framework7.material.colors.min.css"> 
+  <link rel="stylesheet" href="css/bravo.css"> 
+</head>
+<body class="theme-orange layout-dark">
+<div class="login-screen center" id="login-screen">
+    <div class="view">
+      <div class="page">
+      <div class="navbar-through"></div>
+        <div class="page-content login-screen-content">
+          <div class="login-screen-title">Bravo Fitness</div>
+          <form>
+            <div class="list-block">
+              <ul>
+                <li class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title label">Usuário</div>
+                    <div class="item-input">
+                      <input type="text" name="username" placeholder="Usuário">
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title label">Senha</div>
+                    <div class="item-input">
+                      <input type="password" name="password" placeholder="Senha">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <div class="list-block-label">
+                <div class="button-row">
+                  <a href="#" class="button button-raised button-fill close-login-screen" id="login-button">Acessar</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-right panel-reveal">
+      <div class="content-block">
+        <p>Left panel content goes here</p>
+      </div>
+    </div>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+            <div class="center sliding">Awesome App</div>
+            <div class="right">
+              <!-- 
+                Right link contains only icon - additional "icon-only" class
+                Additional "open-panel" class tells app to open panel when we click on this link
+              -->
+              <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content -->
+            <div class="page-content">
+              <p>Page content goes here</p>
+              <!-- Link to another page -->
+              <a href="about.html">About app</a>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+          <div class="toolbar-inner">
+            <!-- Toolbar links -->
+            <a href="#" class="link">Link 1</a>
+            <a href="#" class="link">Link 2</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="js/framework7.min.js"></script>
+  <script type="text/javascript" src="js/bravoApp.js"></script>
+</body>
+</html>
