@@ -5,4 +5,5 @@ var bravo = new Framework7({
     swipePanel: 'right'
 });
 
-bravo.loginScreen(document.getElementById('login-screen'), true);
+bravo.loginScreen(document.getElementById('login-screen'), false);
+
