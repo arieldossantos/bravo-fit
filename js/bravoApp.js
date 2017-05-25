@@ -15,7 +15,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ["Alimentação", "Malhação", "Aeróbica"],
         datasets: [{
-            data: [12, 19, 5],
+            data: [80, 94, 77],
             backgroundColor: [
                 'rgba(255, 99, 132, 1)',
                 'rgba(54, 162, 235, 1)',

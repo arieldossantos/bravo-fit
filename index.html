@@ -51,12 +51,10 @@
 
 <!-- Status bar overlay for full screen mode (PhoneGap) -->
     <div class="statusbar-overlay"></div>
-    <!-- Panels overlay-->
     <div class="panel-overlay"></div>
-    <!-- Left panel with reveal effect-->
     <div class="panel panel-right panel-reveal">
       <div class="content-block">
-        <p>Left panel content goes here</p>
+        <p><a href="">eae</a></p>
       </div>
     </div>
     <!-- Views -->
@@ -67,7 +65,7 @@
         <div class="navbar">
           <div class="navbar-inner">
             <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
-            <div class="center sliding">Awesome App</div>
+            <div class="center sliding">Bravo Fitness</div>
             <div class="right">
               <!-- 
                 Right link contains only icon - additional "icon-only" class
@@ -82,26 +80,68 @@
           <!-- Page, "data-page" contains page name -->
           <div data-page="index" class="page">
             <!-- Scrollable page content -->
-            <div class="page-content" style="text-align: center;">
-              
+            <div class="page-content">
+<style>
+  .demo-card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+ 
+ 
+<div class="card demo-card-header-pic">
+  <div style="background-image:url('http://lorempixel.com/1000/700/nature/3/')" valign="bottom" class="card-header color-white no-border">Novidades na academia</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Postado em 25 de Maio de 2017</p>
+      <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit....</p>
+    </div>
+  </div>
+</div>    
               <!-- Link to another page -->
-              <a href="about.html">About app</a>
-              <div style="width: 100%; position: relative;">
+    
+              <div style="position: relative;text-align: center;">
+              <h1>Desempenho das atividades</h1>
                 <canvas id="myChart" width="400" height="400"></canvas>
               </div>
             </div>
           </div>
         </div>
-        <!-- Bottom Toolbar-->
-        <div class="toolbar">
-          <div class="toolbar-inner">
-            <!-- Toolbar links -->
-            <a href="#" class="link">Link 1</a>
-            <a href="#" class="link">Link 2</a>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- página de marcação de consulta com o nutricionista -->
+
+<div class="views">
+    <!-- Your main view -->
+    <div class="view view-main">
+      <!-- Pages -->
+      <div class="pages">
+        <div class="page" data-page="home">
+          <div class="page-content">
+            ... page content goes here ...
           </div>
         </div>
       </div>
     </div>
+    <!-- Another view -->
+    <div class="view another-view">
+      <!-- Pages -->
+      <div class="pages">
+        <div class="page" data-page="home-another">
+          <div class="page-content">
+            ... page content goes here ...
+          </div>
+        </div>
+      </div>
+    </div>          
+  </div>
+    
   <script type="text/javascript" src="js/framework7.min.js"></script>
   <script type="text/javascript" src="js/chart.min.js"></script>
   <script type="text/javascript" src="js/bravoApp.js"></script>
