@@ -82,10 +82,13 @@
           <!-- Page, "data-page" contains page name -->
           <div data-page="index" class="page">
             <!-- Scrollable page content -->
-            <div class="page-content">
-              <p>Page content goes here</p>
+            <div class="page-content" style="text-align: center;">
+              
               <!-- Link to another page -->
               <a href="about.html">About app</a>
+              <div style="width: 83%; position: relative; left: calc(50% - 42vw);">
+                <canvas id="myChart" width="400" height="400"></canvas>
+              </div>
             </div>
           </div>
         </div>
@@ -100,6 +103,7 @@
       </div>
     </div>
   <script type="text/javascript" src="js/framework7.min.js"></script>
+  <script type="text/javascript" src="js/chart.min.js"></script>
   <script type="text/javascript" src="js/bravoApp.js"></script>
 </body>
 </html>
